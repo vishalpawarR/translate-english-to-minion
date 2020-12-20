@@ -10,11 +10,22 @@
         console.log("hey");
     </Script>
     -->
-    <script src="app.js"></script>
+    <style>
+        #output {
+            border: 1px solid black;
+            height: 25vh;
+            
+        }
+    </style>
 </head>
 
 <body>
     <h1>Banana</h1>
+    <textarea name="in" id="txt-input" cols="90" rows="10" placeholder="English to minion"></textarea>
+    <button id="btn-translate">Translate</button>
+    <div style="font-size: larger;">Out will come here</div>
+    <div id="output"></div>
+    <script src="app.js"></script>
 </body>
 
 </html>
